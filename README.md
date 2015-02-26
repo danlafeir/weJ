@@ -1,11 +1,13 @@
 # weJ
 
-Simply this is an app that allows you to listen to music collaboratively. But I had a couple more goals. 
+Simply, this is an app that allows you to listen to music collaboratively. 
+
+But I had a couple more goals. 
 
 **Goals:** 
-  To experiment with a design concept that I have been thinking about (I will explain in detail below). 
-  Try to give back to the Open Source Community which has been instrumental (music get it) in my life.
-  Make listening to music collabortively more then just suggesting songs. 
+  *To experiment with a design concept that I have been thinking about (I will explain in detail below). 
+  *Try to give back to the Open Source Community which has been instrumental (music get it) in my life.
+  *Make listening to music collabortively more then just suggesting songs. 
   
 **All I ask** is give credit where credit is due. If you fork this or use it credit the pieces you use to the people who have worked on it. Programming is an art and as artists we like signning our work too!
 
@@ -19,19 +21,19 @@ Logic interface - This handles all of the logic for playing music. All it has ar
 
 ### Going Forward 
 
-I am want to make the music playing interface not only so I can make it not dependent on spoify. I would love to put this on a rasberry pi or hummingboard to cut out the need for a computer. 
+I am want to make the music playing interface not only so I can make it not dependent on spoitfy. I would love to put this on a rasberry pi or hummingboard to cut out the need for a computer. 
 
-I would also like to add mobile as well. Mobile apps that have their own interface but as long as they are using the same endpoints as the logic interface. 
+I would also like to add mobile as well. Mobile apps will have their own interface but as long as they are using the same endpoints as the logic interface. 
 
-I am looking to make this a project that builds with vagrant and adding a testing component so I people can develop in a TTD way.
+I am looking to make this a project that builds with vagrant and adding a testing component so people can develop in a TTD way.
 
 ### How to add to ths
 
-Along with making interfaces I am also trying to utilize a methodology I have seen in PHP frameworks. I have a **core** code section and **features** that you can add. But unlike those frameworks I encourage you to hack the core. I am ok with having multiple cores (however I will name a *"og core"*). Over time things I would love to merge things into the *"og core"* (whether they be other cores or features). 
+Along with making interfaces I am also trying to utilize a methodology I have seen in PHP frameworks. I have a **core** code section and **features** that you can add. But unlike those frameworks I encourage you to hack the core. I am ok with having multiple cores (however I will name a *"OG core"*). Over time things I would love to merge things into the *"OG core"* (whether they be other cores or features). 
 
 ### The "Grand Design" 
 
-Like I mentioned earlier I really enjoy and strive for seperation of concern. I think this is the best way to track down bugs when you program with this in mind. So from interface to interface or function to function there is a concept of this is what I take and this is what I will give you. And making each of these minimize how much it needs to worry about. This might seem simple but JavaScript plays the game fast and loose where you can pass whatever you want and get whatever you want. I want to enforce the classical strongly type ruling. 
+Like I mentioned earlier I really enjoy and strive for seperation of concern. I think this is the best way to track down bugs when you program. So from interface to interface or function to function there is a concept of "this is what I take" and "this is what I will give you". And making each of these minimizes how much it needs to worry about. This might seem simple but JavaScript plays the game fast and loose where you can pass whatever you want and get whatever you want. I want to enforce the classical strongly type ruling. 
 
 ### How to set it up 
 
