@@ -5,9 +5,9 @@ Simply, this is an app that allows you to listen to music collaboratively.
 But I had a couple more goals. 
 
 **Goals:** 
-  *To experiment with a design concept that I have been thinking about (I will explain in detail below). 
-  *Try to give back to the Open Source Community which has been instrumental (music get it) in my life.
-  *Make listening to music collabortively more then just suggesting songs. 
+  * To experiment with a design concept that I have been thinking about (I will explain in detail below). 
+  * Try to give back to the Open Source Community which has been instrumental (music get it) in my life.
+  * Make listening to music collabortively more then just suggesting songs. 
   
 **All I ask** is give credit where credit is due. If you fork this or use it credit the pieces you use to the people who have worked on it. Programming is an art and as artists we like signning our work too!
 
@@ -43,6 +43,12 @@ For logic interface: You should only need to run **npm install** and it should w
 
 For web interface: You have to run both **npm install** and **bower install** I am trying to leave dependency handling up to bower and npm to make setting up the app easier. Once you run both these commands you should be able to run **grunt serve** and the project should start up. 
 
+This also uses the spotify api to play the music so you will need to register an app with them and populate AppConfig with:
+* client_id: // Your client id
+* client_secret: // Your client client_secret
+* redirect_uri: // Your registered callback uri with the Spotify App
+  
+  
 ### Shout outs
 
 Like I mentioned earlier I want to give credit where credit is due. Check out some of the cool stuff that made this app possible.
