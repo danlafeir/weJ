@@ -45,7 +45,7 @@ For web interface: You have to run both **npm install** and **bower install** I 
 
 Like I mentioned earlier I want to give credit where credit is due. Check out some of the cool stuff that made this app possible.
 
-[Yeoman](http://yeoman.io/) - for the scaffolding of the app 
+[Yeoman](http://yeoman.io/) - for the scaffolding of the frontend app 
 
 [AngularJS](https://angularjs.org/) - for frontend greatness
 
