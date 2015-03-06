@@ -18,8 +18,11 @@ module.exports = {
     blocked: false
   },
   blockUser: function(username, time){
-    this.userList[this.usernameToIpMap[username]].blocked = true;
-    //setTimeout(function() { user.blocked = false }, time);
+    var user = this.userList[this.usernameToIpMap[username]];
+    if(user !== undefined){
+      user.blocked = true;
+      setTimeout(function() { user.blocked = false }, time);
+    }
   },
   unblockUser: function(user){
     this.userList[this.usernameToIpMap[username]].blocked = false;
@@ -60,4 +63,3 @@ module.exports = {
   }
 
 };
-

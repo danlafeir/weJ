@@ -18,7 +18,7 @@ angular.module('webJ', [])
       return "";
     };
 
-		var hostIP = "dan"; //make this something someone can enter (or grab dynamically)
+		var hostIP = "192.168.2.7"; //make this something someone can enter (or grab dynamically)
 		var port = "1337";
 		var playlist = $scope.playlist = [];
 

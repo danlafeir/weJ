@@ -32,8 +32,12 @@ module.exports = {
       console.log("Error: Song request was missing something");
       return res.send("error");
     }
-    
-	if(Playlist.addSong(req.query.songURI, req.query.songTitle, req.query.songDuration) === true){
+
+		if(Users.userList[req.ip].blocked === true){
+			return res.send("user blocked");
+		}
+
+		if(Playlist.addSong(req.query.songURI, req.query.songTitle, req.query.songDuration) === true){
       Notifications.addNotification(Users.userList[req.ip].username + " requested " + req.query.songTitle);
     };
 		return res.send(Playlist.getPlaylist());
@@ -42,6 +46,8 @@ module.exports = {
 	getPlaylist: function(req, res){
 		return res.send(Playlist.getPlaylist());
 	},
+
+	//
 
 	//Admin Endpoints:
 	removeSong: function(req, res){

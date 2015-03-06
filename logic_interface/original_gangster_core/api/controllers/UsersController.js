@@ -15,7 +15,11 @@ module.exports = {
     Users.giveUserMoreDownVotes(req.query.username, req.query.numberOfVotes);
   },
   unblockUser: function(req,res){
-
+    Users.unblockUser(req.query.username);
+  },
+  blockUser: function(req, res){
+    Users.blockUser(req.query.username, req.query.time);
+    return res.send("User Blocked");
   },
   refreshUserVotes: function(req, res){
     Users.refreshAllUserVotes();
@@ -30,4 +34,3 @@ module.exports = {
   }
 
 };
-
