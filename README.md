@@ -1,8 +1,5 @@
 # weJ
 
-**STATUS:** My apologies an update to spotify made an assumption I used invalid. Soon to add Mopidy as the music source.(Spotify Independence!!!!)
-
-
 
 Simply, this is an app that allows you to listen to music collaboratively.
 
