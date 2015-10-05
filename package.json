@@ -4,7 +4,9 @@
   "description": "Collaborative playlist creation and editting.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "npm run test-jest && npm run test-mocha",
+    "test-jest": "jest",
+    "test-mocha": "mocha backend/"
   },
   "jest": {
     "scriptPreprocessor": "app/node_modules/react-native/jestSupport/scriptPreprocess.js",
