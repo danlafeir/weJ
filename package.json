@@ -4,7 +4,22 @@
   "description": "Collaborative playlist creation and editting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "node_modules/react-native/jestSupport/scriptPreprocess.js",
+    "setupEnvScriptFile": "node_modules/react-native/jestSupport/env.js",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "packager/react-packager/src/Activity/"
+    ],
+    "testFileExtensions": [
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "promise",
+      "source-map"
+    ]
   },
   "repository": {
     "type": "git",
@@ -18,7 +33,9 @@
   "homepage": "https://github.com/dlafeir/weJ#readme",
   "dependencies": {
     "express": "^4.13.3",
-    "jest": "^0.1.40",
     "mocha": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.5.8"
   }
 }
