@@ -1,4 +1,4 @@
-package com.wej;
+package com.mobile_app;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -30,7 +30,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
                 .setInitialLifecycleState(LifecycleState.RESUMED)
                 .build();
 
-        mReactRootView.startReactApplication(mReactInstanceManager, "weJ", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "mobile_app", null);
 
         setContentView(mReactRootView);
     }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "weJ.app"
-               BlueprintName = "weJ"
-               ReferencedContainer = "container:weJ.xcodeproj">
+               BuildableName = "mobile_app.app"
+               BlueprintName = "mobile_app"
+               ReferencedContainer = "container:mobile_app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "weJTests.xctest"
-               BlueprintName = "weJTests"
-               ReferencedContainer = "container:weJ.xcodeproj">
+               BuildableName = "mobile_appTests.xctest"
+               BlueprintName = "mobile_appTests"
+               ReferencedContainer = "container:mobile_app.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "weJTests.xctest"
-               BlueprintName = "weJTests"
-               ReferencedContainer = "container:weJ.xcodeproj">
+               BuildableName = "mobile_appTests.xctest"
+               BlueprintName = "mobile_appTests"
+               ReferencedContainer = "container:mobile_app.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "weJ.app"
-            BlueprintName = "weJ"
-            ReferencedContainer = "container:weJ.xcodeproj">
+            BuildableName = "mobile_app.app"
+            BlueprintName = "mobile_app"
+            ReferencedContainer = "container:mobile_app.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "weJ.app"
-            BlueprintName = "weJ"
-            ReferencedContainer = "container:weJ.xcodeproj">
+            BuildableName = "mobile_app.app"
+            BlueprintName = "mobile_app"
+            ReferencedContainer = "container:mobile_app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "weJ.app"
-            BlueprintName = "weJ"
-            ReferencedContainer = "container:weJ.xcodeproj">
+            BuildableName = "mobile_app.app"
+            BlueprintName = "mobile_app"
+            ReferencedContainer = "container:mobile_app.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
