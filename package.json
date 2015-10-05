@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dlafeir/weJ/issues"
   },
-  "homepage": "https://github.com/dlafeir/weJ#readme"
+  "homepage": "https://github.com/dlafeir/weJ#readme",
+  "dependencies": {
+    "jest": "^0.1.40",
+    "mocha": "^2.3.3"
+  }
 }
